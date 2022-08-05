@@ -31,7 +31,8 @@ body .headerHome {
   body .headerHome p {
     text-align: center; }
   body .headerHome .navEventos {
-    font-weight: bold; }
+    font-weight: bold;
+    background-color: #e79e18; }
 
 body .seccionCentral {
   display: grid;
@@ -112,6 +113,7 @@ body .footerHome {
 
 /*estilos ubicacion*/
 body header {
+  grid-area: headerUbi;
   background-color: orange; }
   body header .ubicacionPiePagina {
     background-color: red;
@@ -125,9 +127,17 @@ body header {
     font-size: 60px;
     border: 10px solid black; }
 
-body .mainUbicacion {
-  display: flex;
-  flex-direction: row; }
+body main {
+  background-color: #aeadad;
+  font-weight: bold; }
+
+@media screen and (max-width: 600px) {
+  body .bodyUbi header {
+    background-color: grey; } }
+
+@media screen and (max-width: 399px) {
+  body .bodyUbi {
+    background-color: whitesmoke; } }
 
 /*estilos productos*/
 body div .headerProducto {

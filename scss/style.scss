@@ -36,6 +36,7 @@ body{
         }
         .navEventos{
             font-weight: bold;
+            background-color:rgb(231, 158, 24);
         }
     }
     .seccionCentral{
@@ -139,6 +140,7 @@ body{
 
 body{
     header{
+        grid-area: headerUbi;
         background-color: $colorSecundario;
         .ubicacionPiePagina{
             background-color: red;
@@ -153,9 +155,24 @@ body{
             border: 10px solid black;
         }
     }
-    .mainUbicacion{
-        display: flex;
-        flex-direction: row;
+    main{
+        background-color: rgb(174, 173, 173);
+        font-weight: bold;
+      
+        
+    }
+   
+    @media screen and (max-width:600px){  
+        .bodyUbi{
+            header{
+                background-color:grey
+            }
+        }
+    }
+    @media screen and (max-width:399px){  
+        .bodyUbi{
+            background-color:whitesmoke;
+        }
     }
 }
 /*estilos productos*/
