@@ -122,7 +122,6 @@ body{
             background-color:map-get($map: $colores, $key:h1 );
         }
     }
-   
     @media screen and (max-width:399px){
         .sectionRutini{
             display: none;
@@ -140,7 +139,7 @@ body{
 /*estilos ubicacion*/
 
 body{
-    .headerUbi{
+    header{
         grid-area: headerUbi;
         background-color: $colorSecundario;
         .ubicacionPiePagina{
@@ -156,9 +155,11 @@ body{
             border: 10px solid black;
         }
     }
-    .mainUbicacion{
+    main{
         background-color: rgb(174, 173, 173);
         font-weight: bold;
+      
+        
     }
    
     @media screen and (max-width:600px){  
