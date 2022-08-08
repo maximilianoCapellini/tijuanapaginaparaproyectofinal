@@ -112,22 +112,22 @@ body .footerHome {
     grid-template-areas: " divSeccion"; } }
 
 /*estilos ubicacion*/
-body header {
+body .headerUbi {
   grid-area: headerUbi;
   background-color: orange; }
-  body header .ubicacionPiePagina {
+  body .headerUbi .ubicacionPiePagina {
     background-color: red;
     text-align: center;
     font-family: 'Times New Roman', Times, serif; }
-  body header .absolutImagen {
+  body .headerUbi .absolutImagen {
     text-align: center; }
-  body header .ubicacionTitulo {
+  body .headerUbi .ubicacionTitulo {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
     border: 10px solid black; }
 
-body main {
+body .mainUbicacion {
   background-color: #aeadad;
   font-weight: bold; }
 
